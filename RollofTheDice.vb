@@ -2,7 +2,7 @@
 'RCET0265
 'Fall 2020
 'Roll of The Dice
-'
+'https://github.com/burrjake/RollofTheDice.git
 
 Option Strict On
 Option Explicit On
@@ -27,7 +27,6 @@ Module RollofTheDice
             rollSum = firstRoll + secondRoll
 
             'Times rolled
-
             diceArray(rollSum, 2) += 1
 
             'Number between 2 and 12 rolled
